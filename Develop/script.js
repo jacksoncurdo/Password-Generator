@@ -11,7 +11,7 @@ var includedCharContainer = ""
 var newPassword = ""
 
 function options () {
-  desiredLength = prompt("")
+  desiredLength = prompt("Please choose the length of your password ( must be between 8 and 12 characters ) ")
   upperCaseResponse = confirm("do you want to include upper case letters?")
   numbersResponse = confirm("do you want to include numbers?")
   specialCharsResponse = confirm("do you want to include special characters?")
