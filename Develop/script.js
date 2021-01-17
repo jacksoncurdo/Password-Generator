@@ -19,6 +19,8 @@ function options () {
 }
 
 function createCharacterOptions(){
+  if (upperCaseResponse == true)
+  includedCharContainer = includedCharContainer.concat(upperCase)
   
 }
 
