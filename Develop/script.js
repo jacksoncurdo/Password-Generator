@@ -30,7 +30,9 @@ function createCharacterOptions(){
 }
 
 function generatePassword(){
-  
+  for (i=0; i < desiredLength; i++){
+    
+  }
 }
 
 
