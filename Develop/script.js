@@ -25,7 +25,8 @@ function createCharacterOptions(){
   includedCharContainer = includedCharContainer.concat(numbers)
   if (specialCharsResponse == true)
   includedCharContainer = includedCharContainer.concat(specialChars)
-  
+  if (lowerCaseResponse == true)
+  includedCharContainer = includedCharContainer.concat(lowerCase)
 }
 
 
