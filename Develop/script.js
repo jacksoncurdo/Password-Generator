@@ -29,6 +29,10 @@ function createCharacterOptions(){
   includedCharContainer = includedCharContainer.concat(lowerCase)
 }
 
+function generatePassword(){
+  
+}
+
 
 
 
