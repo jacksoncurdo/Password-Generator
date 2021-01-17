@@ -18,6 +18,10 @@ function options () {
   lowerCaseResponse = confirm("do you want to include lower case letters?")
 }
 
+function createCharacterOptions(){
+  
+}
+
 
 
 
