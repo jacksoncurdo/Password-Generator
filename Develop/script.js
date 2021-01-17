@@ -31,14 +31,14 @@ function createCharacterOptions(){
 
 function generatePassword(){
   for (i=0; i < desiredLength; i++){
-    
+    var random = Math.floor(Math.random()*includedCharContainer.length);
   }
 }
 
 
 
 
-// 
+// Assignment Code 
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
