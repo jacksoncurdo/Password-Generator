@@ -1,6 +1,6 @@
 # Password Generator 
 
-<img src="./assets/pg.JPG">
+<img src="./images/pg.JPG">
 
 ## Project Description 
 The goal of this project was to create a functioning password generator using Javascript. 
