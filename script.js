@@ -7,13 +7,13 @@ var numbersResponse = false;
 var specialCharsResponse = false;
 var lowerCaseResponse = false;
 var desiredLength = 0;
-var includedCharContainer = ""
-var newPassword = ""
+var includedCharContainer = "";
+var newPassword = "";
 
 function options() {
   desiredLength = prompt("Please choose the length of your password ( must be between 8 and 128 characters).")
   if (desiredLength > 7 && desiredLength < 129) {
-    alert(`your password will contain ${desiredlength} characters`)
+    alert(`your password will contain ${desiredLength} characters`)
   } else {
     alert("your character count is invalid")
     desiredLength = prompt("Please choose the length of your password (must be between 8 and 128 characters). ")
